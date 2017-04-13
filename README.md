@@ -9,5 +9,8 @@ WHOISER is Python3 script for domains WHOIS information gathering into MySQL dat
 4. Prepare file with domains list (1 domain in line)
 5. Configure script with database access credentials (line 25 in whoiser.py)
 Execute script with path to file with domains list: "python3 whoiser.py domains.txt"
+
 Example file with domains from alexa top 1mil you can find in this repo as well.
+
+If uncomment line 87 in "whoiser.py" file, than you will also have output into HTML file "results.html".
 </pre>
